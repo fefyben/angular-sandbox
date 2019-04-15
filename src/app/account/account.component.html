@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-xs-12 col-md-8 col-md-offset-2 panel panel-default">
+    <h5>{{ account.name }}</h5>
+    <button class="btn btn-default" (click)="onSetTo('active')">Set to Active</button>
+    <button class="btn btn-default" (click)="onSetTo('inactive')">Set to Inactive</button>
+    <button class="btn btn-default" (click)="onSetTo('Unknown')">Set to Unknown</button>
+    <p>This account is {{ account.status }}</p>
+  </div>
+</div>
